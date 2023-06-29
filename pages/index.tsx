@@ -18,6 +18,7 @@ import toastStyle from "../util/toastConfig";
  */
 const Home: NextPage = () => {
   const address = useAddress();
+  
   const { contract: nftDropContract } = useContract(nftDropAddress, "nft-drop");
   const { data: nfts, isLoading } = useOwnedNFTs(nftDropContract, address);
 
