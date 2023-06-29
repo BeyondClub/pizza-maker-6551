@@ -98,7 +98,7 @@ const ClaimTokens = () => {
               <div>
                 {ownedNFTsLeaf && ownedNFTsLeaf.length>0?(
                   ownedNFTsLeaf.map((nft)=>(
-                    <div>
+                    <div key={nft.metadata.id}>
                       <ThirdwebNftMedia
                         metadata={nft.metadata}
                       />
@@ -124,7 +124,7 @@ const ClaimTokens = () => {
               <div>
                 {ownedNFTsTomato && ownedNFTsTomato.length>0?(
                   ownedNFTsTomato.map((nft)=>(
-                    <div>
+                    <div key={nft.metadata.id}>
                       <ThirdwebNftMedia
                         metadata={nft.metadata}
                       />
@@ -151,7 +151,7 @@ const ClaimTokens = () => {
               <div>
                 {ownedNFTsCheese && ownedNFTsCheese.length>0?(
                   ownedNFTsCheese.map((nft)=>(
-                    <div>
+                    <div key={nft.metadata.id}>
                       <ThirdwebNftMedia
                         metadata={nft.metadata}
                       />
