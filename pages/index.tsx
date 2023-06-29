@@ -25,9 +25,9 @@ const Home: NextPage = () => {
     <Container maxWidth="lg">
       {address ? (
         <div className={styles.container}>
-          <h1>Your NFTs</h1>
+          <h1>Your Pizzas 🍕</h1>
           <p>
-            Browse the NFTs inside your personal wallet, select one to connect a
+            Browse the Pizzas inside your personal wallet, select one to connect a
             token bound smart wallet & view it&apos;s balance.
           </p>
           <NFTGrid
@@ -57,13 +57,13 @@ const Home: NextPage = () => {
                 });
               }}
             >
-              Claim NFT
+              Claim Pizza
             </Web3Button>
           </div>
         </div>
       ) : (
         <div className={styles.container}>
-          <h2>Connect a personal wallet to view your owned NFTs</h2>
+          <h2>Connect a personal wallet to view your owned Pizzas 🍕</h2>
           <ConnectWallet />
         </div>
       )}

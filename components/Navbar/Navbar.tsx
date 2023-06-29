@@ -12,18 +12,18 @@ export function Navbar() {
     <div className={styles.navContainer}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
-          <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
+          {/* <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
-              src="/thirdweb.svg"
-              width={48}
-              height={48}
+              src="/logo.svg"
+              width={64}
+              height={64}
               alt="NFT marketplace sample logo"
             />
-          </Link>
+          </Link> */}
 
           <div className={styles.navMiddle}>
             <Link href="/" className={styles.link}>
-              Your NFTs
+              Your Pizzas 🍕
             </Link>
           </div>
         </div>
