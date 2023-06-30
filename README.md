@@ -1,5 +1,5 @@
 ## Token Bound Account Front End Template
-
+.
 Create a front end for users to browse their owned NFTs & create token-bound smart wallets associated with these NFTs.
 Allow users to claim tokens to their token-bound wallets.
 ## Using this template
