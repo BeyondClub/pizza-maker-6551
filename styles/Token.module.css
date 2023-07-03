@@ -30,7 +30,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  
+
 }
 
 .card p {
@@ -61,8 +61,8 @@
 
 .image {
   border-radius: 16px;
-  width: 100% !important;
-  height: auto !important;
+  /* width: 100% !important; */
+  /* height: auto !important; */
   background-color: rgba(255, 255, 255, 0.04);
 }
 
